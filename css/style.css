@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-image: url('../Assets/Background.png');
+    font-family: 'Work Sans', sans-serif;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-class {
+    width: 25%;
+    margin: 0 auto;
+}
+
+.body {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.blue-part {
+    background-color: blue;
+    background-image: url(../Assets/Pattern.png);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 3rem;
+    width: 100%;
+}
+
+.blue-part p {
+    color: #fff;
+    font-size: 1.3rem;
+    text-align: center;
+    width: 100%;
+}
+
+.main-text {
+    padding: 1rem;
+}
+
+.main-text p {
+    font-size: 14px;
+    text-align: center;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+#address {
+    padding: .8rem 1rem;
+    width: 70%;
+    background-color: #c7c6c1;
+    color: #48494b;
+    border: solid 1px #999da0;
+    border-radius: 5px;
+    font-size: .75rem;
+}
+
+#button {
+    padding: 0 .7rem;
+    width: 30%;
+    background-color: blue;
+    color: #fff;
+    border: solid 1px #999da0;
+    border-radius: 5px;
+    font-size: .82rem;
+    cursor: pointer;
+}
+
+.beneath {
+    text-align: left;
+    font-size: 14px;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 200px) {
+    .top-class {
+        width: 100%;
+    }
+    html,
+    body {
+        align-self: stretch;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    .top-class {
+        width: 80%;
+    }
+    html,
+    body {
+        align-self: stretch;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+    .top-class {
+        width: 50%;
+    }
+    html,
+    body {
+        align-self: stretch;
+    }
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1400px) {
+    .top-class {
+        width: 30%;
+    }
+}
